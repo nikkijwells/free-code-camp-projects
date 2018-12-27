@@ -3,4 +3,21 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 200px 400px 100px 100px 100px 400px 300px 200px;
   grid-gap: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header-img {
+  grid-column: 1/2;
+}
+
+#nav-bar {
+  grid-column: 3/6;
+  padding: 50px 20px 50px 20px;
+  justify-items: end;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px 0px 20px;
 }
